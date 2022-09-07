@@ -1,8 +1,5 @@
 /dts-v1/;
 
-#include "mt8163.dtsi"
-#include "douglas_bat_setting.dtsi"
-#include "douglas.dts"
 
 / {
 	model = "MT8163";
@@ -22,7 +19,7 @@
 			enable-method = "mt-boot";
 			cpu-idle-states = <0x02 0x02 0x03 0x03 0x03>;
 			cpu-release-addr = <0x00 0x40000200>;
-			clock-frequency = "M|m";
+			clock-frequency = "1000000000";
 		};
 
 		cpu@1 {
@@ -32,7 +29,7 @@
 			enable-method = "mt-boot";
 			cpu-idle-states = <0x02 0x02 0x03 0x03 0x03>;
 			cpu-release-addr = <0x00 0x40000200>;
-			clock-frequency = "M|m";
+			clock-frequency = "1000000000";
 		};
 
 		cpu@2 {
@@ -42,7 +39,7 @@
 			enable-method = "mt-boot";
 			cpu-idle-states = <0x02 0x02 0x03 0x03 0x03>;
 			cpu-release-addr = <0x00 0x40000200>;
-			clock-frequency = "M|m";
+			clock-frequency = "1000000000";
 		};
 
 		cpu@3 {
@@ -52,7 +49,7 @@
 			enable-method = "mt-boot";
 			cpu-idle-states = <0x02 0x02 0x03 0x03 0x03>;
 			cpu-release-addr = <0x00 0x40000200>;
-			clock-frequency = "M|m";
+			clock-frequency = "1000000000";
 		};
 
 		idle-states {
